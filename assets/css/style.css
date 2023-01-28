@@ -65,23 +65,51 @@ body {
 
 /* About Romania */
 
-.flag {
-    background: url('../images/romania-flag.png') no-repeat center center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-}
-
 #about {
     text-align: center;
     padding-top: 1%;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 40px 0 40px 0;
+}
+
+#about h2 {
+    font-size: 40px;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 20% 0 20%;
+    margin-top: 0%;
+}
+
+.presentation-video {
+    max-width: 100%;
+    height: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  Footer */
+
+footer {
+    height: 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 3%;
+    color: black;
+    margin-top: 0px;
 }
