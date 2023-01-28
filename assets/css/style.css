@@ -12,6 +12,7 @@ body {
     font-family: solitreo, sans-serif;
     font-weight: 300;
     color: black;
+ 
 }
 
 #logo {
@@ -59,5 +60,28 @@ body {
     height: 600px;
     overflow: hidden;
     position: relative;
-    
+
+}
+
+/* About Romania */
+
+.flag {
+    background: url('../images/romania-flag.png') no-repeat center center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+#about {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 30px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
