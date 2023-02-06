@@ -62,13 +62,12 @@ body {
 
 /* Hero Image */
 
-#hero-image {
-    background: url('../images/Palatul-Parlamentului.jpg') no-repeat center 30%;
+img {
     width: 100%;
-    height: 600px;
+    height: 500px;
+    object-fit: cover;
     overflow: hidden;
-    position: relative;
-
+    
 }
 
 /* About Romania */
