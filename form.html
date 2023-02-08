@@ -22,18 +22,18 @@
         </nav>
     </div>
     </header>
-    <section>
+    <section class="tour-section">
         <form class="schedule-tour" method="post" action="https://formdump.codeinstitute.net/">
             <h2>Schedule a tour!</h2>
             <label for="fname">First Name:</label>
-            <input type="text">
+            <input type="text" id="fname" class="text-input" name="first_name" required>
             <label for="lname">Last Name:</label>
-            <input type="text">
+            <input type="text" id="lname" class="text-input" name="last_name" required>
             <label for="email">Email:<Address></Address></label>
-            <input type="text">
+            <input type="email" id="email" class="text-input" name="email_address" required>
             <label for="date">Choose a date:</label>
-            <input type="date" min="today">
-
+            <input type="date" class="text-input" min="today" required>
+            <input class="schedule-button"  type="submit" value="Schedule a Tour!"/>
         </form>
     </section>
     <footer>

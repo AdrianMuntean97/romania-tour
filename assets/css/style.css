@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&display=swap');
 
 
-/* Navigation bar */
+/*  Navigation bar   */
+
 header {
     width: 100%;
-    height: 140px;
+    height: 120px;
     background: linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 50%, rgba(0,0,255,1) 100%);
     
 }
@@ -31,7 +32,7 @@ body {
 }
 
 #menu {
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 4px;
     color: black;
 }
@@ -60,22 +61,43 @@ body {
     border-bottom: 1px solid black;
 }
 
-/* Hero Image */
+/*  Hero Image   */
 
-img {
-    width: 100%;
+.hero-image {
+    background: url(../images/george-9fsuPfQvhX4-unsplash.jpg) no-repeat ;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
     height: 650px;
-    object-fit: fill;
-    overflow: hidden;
-    
+    width: auto;
+
 }
 
-/* About Romania */
+img {
+    max-width: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 2rem;
+    height: 600px;
+}
 
-h1 , h2 {
+/*  About Romania    */
+
+h1 {
     text-align: center;
     padding-top: 1%;
-    font-size: 24px;
+    font-size: 2rem;
+    padding: 40px 0 40px 0;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1%;
     padding: 40px 0 40px 0;
     text-transform: uppercase;
     font-family: 'Secular One', sans-serif;
@@ -114,7 +136,7 @@ p {
 }
 
 
-/*  Footer */
+/*  Footer  */
 
 footer {
     
@@ -138,15 +160,60 @@ footer {
     margin-top: 0px;
 }
 
-/* Places to Visit */
+/*  Places to Visit  */
 
 .top-places {
+
     max-width: 100%;
-    height: 750px;
+    height: 650px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-    position: relative;
-    padding-top: 140px;
+    margin-top: 50px;
+    
+}
+
+/*  Schedule a Tour */
+
+.tour-section {
+    background: url(../images/paul-mocan-vYi0kzbK4sU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.schedule-tour {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(160, 160, 160, 0.3);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.schedule-tour > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 30px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.schedule-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #000000de;
+    color: #fafafa;
+    display: block;
 }
