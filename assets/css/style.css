@@ -275,3 +275,17 @@ footer {
      }
 
 }
+
+@media screen and (max-width: 450px) {
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #menu {
+        font-size: 55%;
+        margin-left: 5px;
+        line-height: 0px;
+     }
+
+}
