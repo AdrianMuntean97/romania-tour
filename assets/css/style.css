@@ -274,6 +274,10 @@ footer {
         font-size: 80%;
      }
 
+     section > img {
+        max-height: 450px;
+     }
+
 }
 
 @media screen and (max-width: 450px) {
