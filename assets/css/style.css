@@ -3,12 +3,11 @@
 
 /*  Navigation bar   */
 
-header {
-    width: 100%;
-    height: 120px;
+.container {
     background: linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 50%, rgba(0,0,255,1) 100%);
-    
+    height: 120px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -27,12 +26,12 @@ body {
     margin-left: 20px;
     padding-top: 20px;
     color: black;
-    font-size: 70px;
+    font-size: 500%;
     font-family:'Bebas Neue', cursive;
 }
 
 #menu {
-    font-size: 20px;
+    font-size: 150%;
     letter-spacing: 4px;
     color: black;
 }
@@ -64,13 +63,13 @@ body {
 /*  Hero Image   */
 
 .hero-image {
-    background: url(../images/george-9fsuPfQvhX4-unsplash.jpg) no-repeat ;
+    background: url(../images/george-9fsuPfQvhX4-unsplash.jpg);
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center; 
+    max-height: 650px;
     height: 650px;
     width: auto;
-
 }
 
 img {
@@ -88,13 +87,20 @@ img {
 h1 {
     text-align: center;
     padding-top: 1%;
-    font-size: 2rem;
-    padding: 40px 0 40px 0;
     text-transform: uppercase;
     font-family: 'Secular One', sans-serif;
 }
 
 h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1%;
+    padding: 40px 0 40px 0;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+}
+
+h3 {
     font-size: 1.5rem;
     text-align: center;
     padding-top: 1%;
@@ -106,7 +112,7 @@ h2 {
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    text-align: justifys;
+    text-align: justify;
     padding: 0 20% 0 20%;
     margin-top: 0%;
 }
@@ -118,6 +124,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    width: 1300px;
+    
 }
 
 /*  Image Grid  */
@@ -142,13 +150,12 @@ p {
 /*  Footer  */
 
 footer {
-    
-    height: 160px;
-
+    height: 100px;
 }
 
 .social-networks {
     text-align: center;
+    margin-top: 20px;
 }
 
 .social-networks > li {
@@ -157,10 +164,9 @@ footer {
 
 .social-networks i {
     font-size: 150%;
-    margin: 1%;
+    margin-top: 0;
     padding: 3%;
     color: black;
-    margin-top: 0px;
 }
 
 /*  Places to Visit  */
@@ -173,7 +179,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    
+    width: 1300px;
 }
 
 /*  Schedule a Tour */
@@ -216,7 +222,56 @@ footer {
     padding: 15px 30px 15px 30px;
     text-align: center;
     font-size: 100%;
-    background-color: #000000de;
+    background-color: #00000059;
     color: #fafafa;
     display: block;
+}
+
+/*  Media Query */
+
+@media screen and (max-width: 900px) {
+
+    #logo {
+        font-size: 350%;
+    }
+
+    .photos {
+        padding-top: 50px;
+        clear: both;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 1px;
+        display: block;
+        margin-top: 0;
+    }
+
+    #menu {
+        font-size: 120%;
+        letter-spacing: 3px;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 25px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #logo {
+        font-size: 200%;
+        padding-top: 0;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 10px;
+        font-size: 80%;
+     }
+
 }
