@@ -26,12 +26,12 @@ body {
     margin-left: 20px;
     padding-top: 20px;
     color: black;
-    font-size: 500%;
+    font-size: 450%;
     font-family:'Bebas Neue', cursive;
 }
 
 #menu {
-    font-size: 150%;
+    font-size: 125%;
     letter-spacing: 4px;
     color: black;
 }
@@ -229,10 +229,10 @@ footer {
 
 /*  Media Query */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
     #logo {
-        font-size: 350%;
+        font-size: 300%;
     }
 
     .photos {
@@ -246,7 +246,7 @@ footer {
     }
 
     #menu {
-        font-size: 120%;
+        font-size: 80%;
         letter-spacing: 3px;
     }
 
@@ -258,7 +258,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
 
     #logo {
         font-size: 200%;
