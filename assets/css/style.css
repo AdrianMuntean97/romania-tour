@@ -6,6 +6,7 @@
 .container {
     background: linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 50%, rgba(0,0,255,1) 100%);
     height: 120px;
+    font-weight: 600;
 }
 
 * {
@@ -131,7 +132,7 @@ p {
 /*  Image Grid  */
 
 .photos {
-    padding-top: 50px;
+    padding: 50px 5% 0 5%;
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -236,13 +237,14 @@ footer {
     }
 
     .photos {
-        padding-top: 50px;
+        padding: 50px 10% 0 10%;
         clear: both;
         line-height: 0;
         column-count: 1;
         column-gap: 1px;
         display: block;
         margin-top: 0;
+
     }
 
     #menu {
@@ -277,10 +279,31 @@ footer {
      section > img {
         max-height: 450px;
      }
+     
+     h2 {
+        padding: 5% 0 5% 0;
+
+    
+    }
+
+    p {
+        font-size: 15px;
+        padding: 0 10% 0 10%;
+     }
+
 
 }
 
 @media screen and (max-width: 450px) {
+
+
+    .top-places {
+        height: 400px;
+    }
+
+    img {
+        height: 350px;
+    }
 
     #logo {
         font-size: 200%;
@@ -298,5 +321,10 @@ footer {
         margin-left: 4px;
         padding: 0;
      }
+
+     p {
+        font-size: 14px;
+        padding: 0 5% 0 5%;
+
     }
 
