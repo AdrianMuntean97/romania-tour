@@ -24,6 +24,7 @@ The Romania Tour website is a landing page for people looking to travel to Roman
 
 - Footer
     - The footer is present at the bottom of the page linkig to different social media pages. The links will open in a new page.
+    
 ![Footer](https://github.com/AdrianMuntean97/romania-tour/blob/main/media/footer.png?raw=true)
 
 - Places to Visit
@@ -57,7 +58,7 @@ The Romania Tour website is a landing page for people looking to travel to Roman
     -   No errors were found when passing through the official (Jigsaw) validator.
 -   Accessibility 
     -   I confirmed that the colors and fonts chosen were easy to read and accesible by running it through the lighthouse in the dev tool.
-    
+
 ![Light House dev tool](https://github.com/AdrianMuntean97/romania-tour/blob/main/media/lighthouse.png?raw=true)
 
 ## Deployment
