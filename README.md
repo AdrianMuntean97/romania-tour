@@ -24,7 +24,7 @@ The Romania Tour website is a landing page for people looking to travel to Roman
 
 - Footer
     - The footer is present at the bottom of the page linkig to different social media pages. The links will open in a new page.
-    
+
 ![Footer](https://github.com/AdrianMuntean97/romania-tour/blob/main/media/footer.png?raw=true)
 
 - Places to Visit
@@ -74,8 +74,8 @@ The Romania Tour website is a landing page for people looking to travel to Roman
 
 -   Content
     -   All the text on the site was taken from Wikipedia Articles.
-    -   The icons in the footer were taken from [Font Awsome](https://fontawesome.com/).
-    -   Form page was inspired by the Love Running project.
+    -   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+    -   Form page code was inspired by the Love Running project with small modifications to CSS visuals.
 -   Media
     -   All images on the site were taken from [Unsplash](https://unsplash.com/).
 
