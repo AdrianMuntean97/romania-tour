@@ -315,11 +315,10 @@ footer {
         margin-left: 10px;
      }
     }
-     @media screen and (max-width: 300px) {
+     @media screen and (max-width: 350px) {
     
     #menu {
         font-size: 55%;
-        margin-left: 4px;
         padding: 0;
      }
 
